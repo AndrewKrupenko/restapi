@@ -1,0 +1,54 @@
+.d-none {
+    display: none;
+}
+.wp-rest-api-dashboard {
+    display: flex;
+}
+.wp-rest-api-dashboard ol {
+    margin-left:  1rem;
+}
+.left-side,
+.right-side {
+    width: 50%;
+}
+.api-black-list-table,
+.api-custom-post-types-table {
+    background-color: #343a40;
+    border-collapse: collapse;
+    color: #fff;
+    margin-top: 20px;
+}
+.api-black-list-table,
+.api-custom-post-types-table,
+.api-black-list-table th,
+.api-custom-post-types-table th,
+.api-black-list-table td,
+.api-custom-post-types-table td{
+    border: 1px solid black;
+    padding: 10px 50px;
+    text-align: center;
+}
+.api-black-list-table tbody tr:hover,
+.api-custom-post-types-table tbody tr:hover{
+    background-color: rgba(255,255,255,.075);
+}
+.rest-api-settings-info input {
+    width: 320px;
+}
+.remove-ip-btn,
+.remove-post-type-btn {
+    background-color: red;
+    border: 0;
+    border-radius: 3px;
+    color: #f0f0f0;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.remove-ip-btn:hover,
+.remove-post-type-btn:hover {
+    opacity: 0.8;
+}
+.remove-ip-btn:focus,
+.remove-post-type-btn:focus {
+    outline: 0;
+}
